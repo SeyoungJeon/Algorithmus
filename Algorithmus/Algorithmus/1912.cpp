@@ -3,7 +3,7 @@
 #include <limits.h>
 using namespace std;
 
-int dp[100001], a[100001], n,s;
+int dp[100001], a[100001], n, s = INT_MIN;
 
 int main() {
 	cin >> n;
@@ -22,4 +22,3 @@ int main() {
 	cout << s;
 	return 0;
 }
-
