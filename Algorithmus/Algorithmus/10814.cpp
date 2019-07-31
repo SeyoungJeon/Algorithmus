@@ -8,7 +8,7 @@ int main() {
 	int N;
 	scanf("%d", &N);
 	vector<pair<int, int>> age(N);
-	vector<char[100]> name(N);
+	vector<char[200]> name(N);
 
 	for (int i = 0; i < N; i++) {
 		scanf("%d %s", &age[i].first, name[i]);
