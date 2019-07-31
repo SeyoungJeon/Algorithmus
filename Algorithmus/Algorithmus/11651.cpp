@@ -7,12 +7,12 @@ using namespace std;
 
 // sort 함수에 사용할 비교함수 선언
 bool compare(pair<int, int> &a, pair<int, int> &b) {
-	//X 좌표 비교
+	//Y 좌표 비교
 	if (b.second > a.second) {
 		return true;
 	}
 	else if (a.second == b.second) {
-		// X좌표 같을 때 Y 좌표 비교
+		// Y좌표 같을 때 X 좌표 비교
 		if (b.first > a.first) {
 			return true;
 		}
