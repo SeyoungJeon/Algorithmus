@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -8,38 +9,32 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	vector<int> v,temp;
-	int N, K;
+	vector<int> v;
+	int N, K, pos = 0;
 	cin >> N >> K;
-	
+
 	for (int i = 1; i <= N; i++) {
 		v.push_back(i);
 	}
 
 	std::vector<int>::iterator iter = v.begin();
 
+	cout << "<";
 	while (v.size() != 0) {
-		if (iter == v.end())
-			iter = v.begin();
-		for (int i = 0; i < K - 1; i++) {
-			iter++;
-			if (iter == v.end())
-				iter = v.begin();
-		}
-		temp.push_back(*iter);
-		iter = v.erase(iter);
-	}
 
-	for (int i = 0; i < N; i++) {
-		if (N == 1)
-			cout << "<" << temp[i] << ">";
-		else if (i == 0)
-			cout << "<" << temp[i] << ", ";
-		else if (i == N - 1)
-			cout << temp[i] << ">";
+		pos = (pos + K - 1) % v.size();
+
+		iter = find(v.begin(), v.end(), v[pos]);
+
+		if (v.size() != 1)
+			cout << *iter << ", ";
 		else
-			cout << temp[i] << ", ";
+			cout << *iter;
+		iter = v.erase(iter);
+
 	}
+	cout << ">";
+
 
 	return 0;
 }
