@@ -17,24 +17,19 @@ int main() {
 		v.push_back(i);
 	}
 
-	std::vector<int>::iterator iter = v.begin();
-
 	cout << "<";
 	while (v.size() != 0) {
 		
 		pos = (pos + K - 1)% v.size();
 
-		iter = find(v.begin(), v.end(), v[pos]);
-		
 		if (v.size() != 1)
-			cout << *iter << ", ";
+			cout << v[pos] << ", ";
 		else
-			cout << *iter;
-		iter = v.erase(iter);
+			cout << v[pos];
+		v.erase(v.begin() + pos);
 		
 	}
 	cout << ">";
-
 
 	return 0;
 }
