@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//좀 만 더 생각하면 간단하게 풀 수 있는 방식
 int main() {
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
@@ -34,6 +35,8 @@ int main() {
 	return 0;
 }
 
+
+// 내가 처음에 푼 방식
 /*
 #include <iostream>
 #include <string>
