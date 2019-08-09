@@ -22,7 +22,7 @@
     <Filter Include="소스 파일\3">
       <UniqueIdentifier>{79aebf17-0050-401b-acfe-205d020e4c29}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\10">
+    <Filter Include="소스 파일\Study">
       <UniqueIdentifier>{5eb6a23a-329f-47d3-bb63-3a76ec0c06df}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -289,10 +289,13 @@
       <Filter>소스 파일\3</Filter>
     </ClCompile>
     <ClCompile Include="10026.cpp">
-      <Filter>소스 파일\10</Filter>
+      <Filter>소스 파일\Study</Filter>
     </ClCompile>
     <ClCompile Include="4811.cpp">
-      <Filter>소스 파일\10</Filter>
+      <Filter>소스 파일\Study</Filter>
+    </ClCompile>
+    <ClCompile Include="11653.cpp">
+      <Filter>소스 파일\3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
