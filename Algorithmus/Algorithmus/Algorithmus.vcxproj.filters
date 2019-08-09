@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\Study">
       <UniqueIdentifier>{5eb6a23a-329f-47d3-bb63-3a76ec0c06df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4">
+      <UniqueIdentifier>{a5aebbb7-277a-4394-8276-2275e3d5b78d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -305,6 +308,9 @@
     </ClCompile>
     <ClCompile Include="2004.cpp">
       <Filter>소스 파일\3</Filter>
+    </ClCompile>
+    <ClCompile Include="1260.cpp">
+      <Filter>소스 파일\4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
