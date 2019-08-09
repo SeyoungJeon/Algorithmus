@@ -22,6 +22,7 @@ int main() {
 		}
 		t = max(max_arr[i], t);
 	}
+
 	cout << t << '\n';
 	
 	return 0;

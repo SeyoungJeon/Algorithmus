@@ -1,8 +1,8 @@
 #include <iostream>
-#include <vector>
+
 using namespace std;
 
-int arr[1000001] = { 0 };
+int arr[1000001] = { 0,1 };
 
 int main() {
 	ios_base::sync_with_stdio(false);
@@ -19,47 +19,12 @@ int main() {
 		if (input == 0)
 			break;
 
-		bool check = false;
-		vector<int> v;
-
-		
-
-		for (int i = 2; i <= input; i++) {
-			if (arr[i] == 0)
-				v.push_back(i);
-		}
-
-		/*for (unsigned int i = 1; i < v.size(); i++) {
-			for(int j= v.size()-1; j>=1 ; j--)
-				if (v[i] + v[j] == input) {
-					cout << input << " = " << v[i] << " + " << v[j] << '\n';
-					check = true;
-					break;
-				}
-			if (check)
+		for (int i = 0; i < input; i++) {
+			if (arr[i] == 0 && arr[input - i] == 0){
+				cout << input << " = " << i << " + " << input-i << '\n';
 				break;
-		}*/
-		for (int i = 1; i < v.size(); i++) {
-			if (input - 1 == v[v.size() - 1]) {
-				if(v[i] + v[v.size()-2] == input){
-					cout << input << " = " << v[i] << " + " << v[v.size()-2] << '\n';
-					check = true;
-					break;
-				}
-			}
-			else {
-				if (v[i] + v[v.size() - 1] == input) {
-					cout << input << " = " << v[i] << " + " << v[v.size() - 1] << '\n';
-					check = true;
-					break;
-				}
 			}
 		}
-
-		
-
-		if (!check)
-			cout << "Goldbach's conjecture is wrong." << '\n';
 	}
 
 	return 0;
