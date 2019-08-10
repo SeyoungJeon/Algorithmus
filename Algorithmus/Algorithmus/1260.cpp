@@ -25,8 +25,6 @@ void bfs(int **arr, int *visit, int n, int N) {
 	visit[v[0]] = 1;
 
 	while (v.size() != 0) {
-		cout << v[0] << ' ';
-
 		for (int i = 1; i <= N; i++) {
 			if (arr[v[0]][i] != 0 && visit[i] == 0 && v[0] != i) {
 				visit[i] = 1;
