@@ -15,8 +15,7 @@ int dy[4] = { 0, 0, 1, -1 };
 void BFS() {
 	while (!q.empty()) {
 		size_t q_size = q.size();
-		//cout << "SIZE : " << q_size << '\n';
-		for (size_t s = 0; s < q_size; s++) {
+			for (size_t s = 0; s < q_size; s++) {
 			int x = q.front().second;
 			int y = q.front().first;
 
@@ -34,7 +33,6 @@ void BFS() {
 				if (change_x >= 0 && change_x < M
 					&& change_y >= 0 && change_y < N
 					&& arr[change_y][change_x] == 1 && visit[change_y][change_x] == 0) {
-					//cout << change_y << ' ' << change_x << '\n';
 					visit[change_y][change_x] = 1;
 					q.push({ change_y,change_x });
 				}
@@ -76,13 +74,6 @@ int main() {
 	q.push({ 0,0 });
 	visit[0][0] = 1;
 	BFS();
-
-	/*for (int i = 0; i < N; i++) {
-		for (int j = 0; j < M; j++) {
-			cout << arr[i][j] << ' ';
-		}
-		cout << '\n';
-	}*/
 	cout << cnt << '\n';
 	return 0;
 }
