@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\5">
       <UniqueIdentifier>{2bbf9a00-86dc-48d4-a605-cd85c2d7c92f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\SamSung">
+      <UniqueIdentifier>{f221ba13-b32d-476e-bca8-5e90fcc6d90a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -365,6 +368,12 @@
     </ClCompile>
     <ClCompile Include="2110.cpp">
       <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="10815.cpp">
+      <Filter>소스 파일\5</Filter>
+    </ClCompile>
+    <ClCompile Include="13460.cpp">
+      <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
