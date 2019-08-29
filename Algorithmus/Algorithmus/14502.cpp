@@ -74,6 +74,7 @@ int main() {
 		}
 	}
 
+	//벽 재귀로 짤 수도 있음
 	for (int i = 0; i < v.size() ; i++) {
 		for (int j = i+1; j < v.size() ; j++) {
 			for (int k = j + 1; k < v.size(); k++) {
