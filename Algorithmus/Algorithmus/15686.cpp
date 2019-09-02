@@ -7,8 +7,6 @@ using namespace std;
 
 deque<pair<int, int>> house,chicken,temp;
 int N, M, ans = INT_MAX;
-int dy[4] = { -1,1,0,0 };
-int dx[4] = { 0,0,-1,1 };
 
 //모든 치킨 거리 구하기
 int Min_Chicken_Road(deque<pair<int,int>> chicken) {
