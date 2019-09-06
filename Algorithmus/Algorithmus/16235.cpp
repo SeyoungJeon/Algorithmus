@@ -1,3 +1,5 @@
+//¤¶¤² °³¿À¹Ù
+
 #include <iostream>
 #include <deque>
 #include <algorithm>
