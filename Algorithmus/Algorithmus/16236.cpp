@@ -46,6 +46,7 @@ pair<pair<int, int>, int> BFS(int **temp, Shark s) {
 
 				visit[ny][nx] = 1;
 
+				// 가장 왼쪽 위에 있는 물고기 좌표 찾음
 				if (temp[ny][nx] < s.size && temp[ny][nx] != 0) {
 					find = true;
 					bool check_y = false, check_x = false;
