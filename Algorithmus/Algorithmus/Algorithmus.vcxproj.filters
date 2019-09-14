@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\SamSung">
       <UniqueIdentifier>{f221ba13-b32d-476e-bca8-5e90fcc6d90a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\icpc">
+      <UniqueIdentifier>{c8504cce-f458-4a96-8c93-f5c0bae2c269}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -439,6 +442,15 @@
       <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
     <ClCompile Include="17144.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="17143.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="16360.cpp">
+      <Filter>소스 파일\icpc</Filter>
+    </ClCompile>
+    <ClCompile Include="17140.cpp">
       <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
   </ItemGroup>
