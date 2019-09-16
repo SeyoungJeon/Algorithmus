@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\icpc">
       <UniqueIdentifier>{c8504cce-f458-4a96-8c93-f5c0bae2c269}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Study_2">
+      <UniqueIdentifier>{f234fb5c-7461-4ebf-bb19-5e68a756fd25}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -455,6 +458,12 @@
     </ClCompile>
     <ClCompile Include="17142.cpp">
       <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="3184.cpp">
+      <Filter>소스 파일\Study_2</Filter>
+    </ClCompile>
+    <ClCompile Include="2210.cpp">
+      <Filter>소스 파일\Study_2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
