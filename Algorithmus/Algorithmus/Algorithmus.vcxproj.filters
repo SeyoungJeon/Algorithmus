@@ -465,5 +465,11 @@
     <ClCompile Include="2210.cpp">
       <Filter>소스 파일\Study_2</Filter>
     </ClCompile>
+    <ClCompile Include="5213.cpp">
+      <Filter>소스 파일\Study_2</Filter>
+    </ClCompile>
+    <ClCompile Include="17070.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
