@@ -486,8 +486,11 @@
     <ClCompile Include="16197.cpp">
       <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
-    <ClCompile Include="1767.cpp">
+    <ClCompile Include="SW_1767.cpp">
       <Filter>소스 파일\SW_Expert_Academy</Filter>
+    </ClCompile>
+    <ClCompile Include="3055.cpp">
+      <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
