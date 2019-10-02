@@ -495,5 +495,11 @@
     <ClCompile Include="2529.cpp">
       <Filter>소스 파일\SamSung</Filter>
     </ClCompile>
+    <ClCompile Include="3987.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="2174.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
