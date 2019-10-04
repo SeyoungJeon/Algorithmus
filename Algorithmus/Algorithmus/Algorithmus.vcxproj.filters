@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\SW_Expert_Academy">
       <UniqueIdentifier>{56721271-b29b-4221-8926-f1a6b1e2b71e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Line">
+      <UniqueIdentifier>{e4a11cad-1cea-4f7d-ae6d-b65f60ad4213}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1000.cpp">
@@ -503,6 +506,12 @@
     </ClCompile>
     <ClCompile Include="16946.cpp">
       <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="2151.cpp">
+      <Filter>소스 파일\SamSung</Filter>
+    </ClCompile>
+    <ClCompile Include="10163.cpp">
+      <Filter>소스 파일\Line</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
